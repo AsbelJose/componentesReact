@@ -1,0 +1,19 @@
+img{
+    height: 120px;
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
