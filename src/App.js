@@ -1,4 +1,5 @@
 import './App.css';
+import Calculadora from './components/calculadora/Calculadora';
 import { Cards } from './components/Cards';
 import { Contador } from './components/Contador';
 import persons from './dbs'
@@ -18,6 +19,10 @@ function App() {
       <hr/>
       <br/>
       <Contador />
+      <h1>Calculadora de React</h1>
+      <hr/>
+      <br/>
+      <Calculadora />
     </>
   );
 }
