@@ -2,6 +2,7 @@ import './App.css';
 import Calculadora from './components/calculadora/Calculadora';
 import { Cards } from './components/Cards';
 import { Contador } from './components/Contador';
+import ToDo from './components/ToDo/ToDo';
 import persons from './dbs'
 
 
@@ -23,6 +24,10 @@ function App() {
       <hr/>
       <br/>
       <Calculadora />
+      <h1>ToDo</h1>
+      <hr/>
+      <br/>
+      <ToDo />
     </>
   );
 }
